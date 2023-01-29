@@ -8,7 +8,14 @@
     return repositories
   }
 
+  async function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+  }
+  
+    
+
   do {
+    delay(1000).then();
     const repos = await getroot();
     console.log(repos)
     // document.write(repos.Time, repos.books)
