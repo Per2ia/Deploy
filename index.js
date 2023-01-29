@@ -11,7 +11,7 @@
   do {
     const repos = await getroot();
     console.log(repos)
-    document.write(repos.Time, repos.books)
+    // document.write(repos.Time, repos.books)
   } while (true);
   
 
