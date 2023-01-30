@@ -18,9 +18,9 @@
     
     const repos = await getroot();
 
-    console.log(repos)
+    
     // document.write(repos.Time, repos.books)
-    wait(1000);
+    setTimeout(() => {  console.log(repos); }, 1000);
     
   } while (true);
   
