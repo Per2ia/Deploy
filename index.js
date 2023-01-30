@@ -20,7 +20,7 @@
 
     
     // document.write(repos.Time, repos.books)
-    setTimeout(() => {  console.log(repos); }, 1000);
+    setTimeout(() => {  console.log(repos); }, 1500);
     
   } while (true);
   
