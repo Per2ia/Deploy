@@ -15,11 +15,12 @@
     
 
   do {
-    wait(1000);
-    const repos = await getroot();
     
+    const repos = await getroot();
+
     console.log(repos)
     // document.write(repos.Time, repos.books)
+    wait(1000);
     
   } while (true);
   
