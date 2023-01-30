@@ -16,7 +16,7 @@
 
   do {
     const repos = await getroot();
-    delay(1000).then(() => 
+    delay(3000).then(() => 
       console.log(repos)
       // document.write(repos.Time, repos.books)
     );
